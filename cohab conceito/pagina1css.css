@@ -1,0 +1,267 @@
+
+/* nav tela inicial */
+.titulo{
+  background-color: #000000;
+  color: white;
+  width: 500px;
+  height: 90px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  border-radius: 10px;
+  box-shadow: rgb(255, 255, 255) 0px 13px 30px -12px;
+  text-align: center;
+  padding: 23px;
+  font-size: 50px;
+}
+
+.titulo h1{
+  background-color: transparent;
+  width: 400px;
+  height: 80px;
+  position: absolute;
+  top: 7%;
+  left: 10%;
+  border: solid 3px #ffd700;
+  border-radius: 10px;
+  text-align: center;
+  padding: -25px;
+}
+
+.camisainicio{
+  position: absolute;
+  width: 20%;
+  top: 33%;
+  left: 17%;
+  border-radius: 13px;
+  box-shadow: #ffd700 0px 13px 30px -12px;
+}
+
+.bermudainicio{
+  position: absolute;
+  width: 20%;
+  top: 33%;
+  left: 52%;
+  border-radius: 10px;
+  box-shadow: rgb(255, 255, 255) 0px 13px 30px -12px;
+}
+
+.tenisinicio{
+  position: absolute;
+  width: 20%;
+  top: 80%;
+  left: 17%;
+  border-radius: 10px;
+  box-shadow: rgb(255, 255, 255) 0px 13px 30px -12px;
+} 
+
+.conjuntoinicio{
+  position: absolute;
+  width: 20%;
+  top: 80%;
+  left: 52%;
+  border-radius: 10px;
+  box-shadow: rgb(255, 255, 255) 0px 13px 30px -12px;
+}
+
+.bt-container { 
+  position: absolute;
+  top: 52%;
+  left: 10%;
+}
+.text-white,
+.text-white-houve:hover,
+.bt {
+ color: white !important;
+ background-color: black;
+ font-family: "UnifrakturMaguntia", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.shadow-1,
+.bt,
+.container {
+
+}
+.shadow-2,
+.bt:hover,
+.context_menu_pai,
+.box_login,
+.datepicker.dropdown-menu,
+.dialogbox,
+.overflow-menu ul {
+ background-color: transparent;
+ border: solid 2px #ffd700;
+ border-radius: 20px;
+}
+.transition-1,
+.bt {
+ transition: all .3s ease-out;
+ transition-property: all;
+ transition-duration: 0.3s;
+ transition-timing-function: ease-out;
+}
+.bt {
+ border: solid 1px #ffd700;
+ padding: 10;
+ width: 250px;
+ height: 50px;
+ display: inline-block;
+ margin: 200px;
+ cursor: pointer;
+ border-radius: 20px;
+}
+
+.produtos{
+  z-index: 1;
+}
+
+    /* Estilos ativos */
+    body{
+      background-color: #3d3d3d;
+    }
+  
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "UnifrakturMaguntia", serif;
+      font-weight: 400;
+      font-style: normal;
+      
+  }
+
+  .logoimg{
+    width: 55px;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    border-radius: 50%;
+  }
+
+  .navbar{
+      display: flex;
+      height: 80px;
+      width: 100%;
+      background-color: #000000;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 50px 0 100px;
+      flex-wrap: wrap;
+      box-shadow: rgb(255, 255, 255) 0px 13px 30px -12px;
+  }
+  
+  .navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  .navbar ul li{
+    margin: 0 15px;
+  }
+
+  .navbar ul a{
+    text-decoration: none;
+    color: #ffd700;
+    font-size: 23px;
+  }
+
+  .blue{
+    background-color: rgb(8, 28, 121);
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
+  .logo{
+    position: absolute;
+    left: 10%;
+      color: white;
+      font-size: 35px;
+      font-weight: 600;
+  }
+
+  .menu-icon{
+    display: none;
+    cursor: pointer;
+  }
+  
+  .menu-icon img{
+    width: 30px;
+  }
+
+@media (max-width: 768px){
+  .navbar ul{
+    position: absolute;
+    background-color: #000000;
+    top: 78px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    left:  -800px;
+    transition: 0.3s;
+    z-index: 1;
+  }
+
+  .navbar ul.open{
+    left: 0;
+
+  }
+
+  .navbar ul li{
+    margin: 20px 0;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+
+/* imagens inicio @media */
+  .produtos{
+    z-index: -1;
+  }
+  .camisainicio{
+  position: absolute;
+  width: 40%;
+  top: 44%;
+  left: 34%;
+  border-radius: 10px;
+  }
+
+  .bermudainicio{
+    position: absolute;
+    width: 40%;
+    top: 70%;
+    left: 34%;
+    border-radius: 10px
+  }
+
+  .tenisinicio{
+    position: absolute;
+    width: 40%;
+    top: 97%;
+    left: 34%;
+    border-radius: 10px
+  }
+
+  .conjuntoinicio{
+    position: absolute;
+    width: 40%;
+    top: 124%;
+    left: 34%;
+    border-radius: 10px
+  }
+
+  .logo{
+    position: absolute;
+    left: 14%;
+    top: 1%;
+      color: white;
+      font-size: 35px;
+      font-weight: 600;
+  }
+
+/* imagens fim @media */
+}
